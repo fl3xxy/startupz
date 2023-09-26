@@ -7,8 +7,11 @@ Link: https://6512bc85f3b289007cad52cc--bespoke-dolphin-bbb555.netlify.app/
 Użyte narzedzia: 
 <br />
 -react
+<br />
 -javascript
-<b>WSZELKIE PRAWA ZASTRZEŻONE</b>
+<br />
+**WSZELKIE PRAWA ZASTRZEŻONE**
+<br />
 ![image](https://github.com/fl3xxy/startupz/assets/122679895/6ca904a6-aef7-4fbf-812b-eed5ea71cc65)
 ![image](https://github.com/fl3xxy/startupz/assets/122679895/06a144e7-14eb-47fd-8864-6c0f1daa8195)
 ![image](https://github.com/fl3xxy/startupz/assets/122679895/cb65085b-f95b-4745-acc5-0ae72fecf8fc)
