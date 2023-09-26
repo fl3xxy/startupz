@@ -6,6 +6,9 @@ import fs from '../../assets/f-s.svg'
 import ft from '../../assets/f-t.svg'
 import ffo from '../../assets/f-fo.svg'
 export const FifthSection = () => {
+    const showDemoAlert = () => {
+        alert(`It's only demo site :C`)
+    }
   return (
     <FifthSectionContainer id="works">
         <FifthSectionBox>
@@ -18,7 +21,7 @@ export const FifthSection = () => {
                             <p className="fifth-description">Tolq is the translation solution built for e-commerce. It p                        rovides all pieces of the localization puzzle in one single integrated solution.</p>
                         </div>
                         <img src={ff} className="laptop"/>
-                        <MoreBtn>More</MoreBtn>
+                        <MoreBtn onClick={showDemoAlert}>More</MoreBtn>
                     </div>
                     <div className="fifth-box-content">
                         <div className="fifth-box-description">
@@ -26,7 +29,7 @@ export const FifthSection = () => {
                             <p className="fifth-description">Feedback Labs turns feedback into actionable insights for your team.</p>
                         </div>
                         <img src={fs} className="tablet"/>
-                        <MoreBtn>More</MoreBtn>
+                        <MoreBtn onClick={showDemoAlert}>More</MoreBtn>
                     </div>
                 </div>
                 <div className="fifth-box">
@@ -36,7 +39,7 @@ export const FifthSection = () => {
                             <p className="fifth-description">Codekeeper is an all-in-one solution for software developers and publishers to provide source code escrow as part of service level and license agreements.</p>
                         </div>
                         <img src={ft} className="tablet"/>
-                        <MoreBtn>More</MoreBtn>
+                        <MoreBtn onClick={showDemoAlert}>More</MoreBtn>
                     </div>
                     <div className="fifth-box-content">
                         <div className="fifth-box-description">
@@ -44,7 +47,7 @@ export const FifthSection = () => {
                             <p className="fifth-description">Protected against legal risks, privacy compliant and always up-to-date with the latest regulatory developments.</p>
                         </div>
                         <img src={ffo} className="laptop"/>
-                        <MoreBtn>More</MoreBtn>
+                        <MoreBtn onClick={showDemoAlert}>More</MoreBtn>
                     </div>
                 </div>
             </div>

@@ -1,3 +1,4 @@
+import { useState } from "react";
 //STYLES
 import { ThirdSectionContainer, ThirdSectionContent } from "./ThirdSection.styles"
 
@@ -6,6 +7,13 @@ import llike from '../../assets/llike.svg'
 import third from '../../assets/thirdsection.svg'
 
 export const ThirdSection = () => {
+  const [isXVisible, setXVisibility] = useState(true);
+  const [isThirdImageVisible, setThirdImageVisibility] = useState(true);
+
+  const hideXAndThirdImage = () => {
+    setXVisibility(false);
+    setThirdImageVisibility(false);
+  };
   return (
     <ThirdSectionContainer>
         <ThirdSectionContent>
@@ -14,8 +22,8 @@ export const ThirdSection = () => {
                 <p>We love solving problems!</p>
                 <img src={llike} className="likes"/>
             </div>
-            <img src={third} className="third"/>
-            <p className="x">X</p>
+            {isThirdImageVisible && <img src={third} className="third"/>}
+            {isXVisible && <p className="x" onClick={hideXAndThirdImage}>X</p>}
         </ThirdSectionContent>
     </ThirdSectionContainer>
   )

@@ -1,5 +1,4 @@
 import { styled } from 'styled-components'
-import background from '../../assets/background.svg'
 
 export const EighthSectionContianer = styled.section`
     min-height: 993px;
@@ -95,7 +94,7 @@ export const EightSectionContent = styled.div`
 
     img {
         position: absolute;
-        bottom: -5210px;
+        bottom: -5040px;
         right: 120px;
     }
     @media (max-width: 1480px) {
@@ -192,6 +191,33 @@ export const EightSectionContent = styled.div`
         }
         .contact-box {
             width: 390px;
+        }
+        .contact-box .input .name-email input{
+            width: 300px;
+        }
+        .contact-box .input .message input{
+            width: 300px;
+        }
+    }
+    @media (max-width: 420px) {
+        .title p{
+            font-size: 24px;
+        }
+        .description p {
+            font-size: 16px;
+        }
+        .contact-box .input .name-email input {
+            font-size: 13px;
+        }
+        .contact-box .input .message input {
+            font-size: 13px;
+        }
+        .contact-box button {
+            width: 180px;
+            font-size: 13px;
+        }
+        .contact-box {
+            width: 370px;
         }
         .contact-box .input .name-email input{
             width: 300px;

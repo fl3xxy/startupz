@@ -4,6 +4,9 @@ import { EightSectionContent, EighthSectionContianer } from "./EighthSection.sty
 import background from '../../assets/background.svg'
 
 export const EighthSection = () => {
+    const showDemoAlert = () => {
+        alert(`It's only demo site :C`)
+      }
   return (
     <EighthSectionContianer id="contact">
         <EightSectionContent>
@@ -28,7 +31,7 @@ export const EighthSection = () => {
                         <input type="text" placeholder="Message*" id="description"/>
                     </div>
                 </div>
-                <button>Shoot us a message</button>
+                <button onClick={showDemoAlert}>Shoot us a message</button>
             </div>
             <img src={background} />
         </EightSectionContent>

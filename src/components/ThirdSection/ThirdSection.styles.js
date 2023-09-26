@@ -32,7 +32,7 @@ export const ThirdSectionContent = styled.div`
     .third {
         position: absolute;
         left: 1200px;
-        bottom: -950px;
+        bottom: -780px;
     }
 
     .x {
@@ -42,8 +42,13 @@ export const ThirdSectionContent = styled.div`
         line-height: 14px;
         color: #939393;
         position: absolute;
-        bottom: -780px;
+        bottom: -625px;
         left: 1530px;
+        cursor: pointer;
+        &:hover {
+            font-weight: bold;
+            color: black;
+        }
     }
     @media (max-width: 1580px) {
         .third {
@@ -81,5 +86,14 @@ export const ThirdSectionContent = styled.div`
                 font-size: 18px;
             }
         }
+    }
+    @media (max-width: 415px) {
+        .third-content-box {
+            gap: 8px;
+            p {
+                font-size: 15px;
+            }
+        }
+        
     }
 `
